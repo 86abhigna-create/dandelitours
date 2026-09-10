@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import ReactMarkdown from 'react-markdown';
 
 interface AiConciergeModalProps {
   onClose: () => void;
@@ -92,8 +91,8 @@ export const AiConciergeModal: React.FC<AiConciergeModalProps> = ({ onClose }) =
                 <span className="material-symbols-outlined text-[20px]">auto_awesome</span>
                 <span>AI Expert Recommendations</span>
               </div>
-              <div className="prose text-[14px] text-[#161c27] leading-relaxed">
-                <ReactMarkdown>{recommendation}</ReactMarkdown>
+              <div className="prose text-[14px] text-[#161c27] leading-relaxed whitespace-pre-wrap">
+                {recommendation}
               </div>
             </div>
           )}

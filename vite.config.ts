@@ -4,35 +4,59 @@ import fs from 'fs';
 import path from 'path';
 import {defineConfig} from 'vite';
 
-export default defineConfig(() => {
+function flatRepoFallbackPlugin() {
   return {
-    plugins: [
-      {
-        name: 'resolve-main-fallback',
-        enforce: 'pre',
-        resolveId(source) {
-          if (
-            source === '/src/main.tsx' ||
-            source === './src/main.tsx' ||
-            source === 'src/main.tsx' ||
-            source === '/main.tsx' ||
-            source === './main.tsx'
-          ) {
-            const srcPath = path.resolve(__dirname, 'src/main.tsx');
-            if (fs.existsSync(srcPath)) {
-              return srcPath;
-            }
-            const rootPath = path.resolve(__dirname, 'main.tsx');
-            if (fs.existsSync(rootPath)) {
-              return rootPath;
+    name: 'flat-repo-fallback',
+    enforce: 'pre' as const,
+    resolveId(source: string, importer?: string) {
+      if (!importer || importer.includes('node_modules')) return null;
+
+      // Handle ../types or ./types
+      if (source.endsWith('/types') || source === '../types' || source === './types') {
+        for (const candidate of [
+          path.resolve(__dirname, 'types.ts'),
+          path.resolve(__dirname, 'src/types.ts'),
+        ]) {
+          if (fs.existsSync(candidate)) return candidate;
+        }
+      }
+
+      // Handle mockData
+      if (source.includes('mockData')) {
+        for (const candidate of [
+          path.resolve(__dirname, 'mockData.ts'),
+          path.resolve(__dirname, 'data/mockData.ts'),
+          path.resolve(__dirname, 'src/data/mockData.ts'),
+          path.resolve(__dirname, 'src/mockData.ts'),
+        ]) {
+          if (fs.existsSync(candidate)) return candidate;
+        }
+      }
+
+      // Handle components/XYZ
+      if (source.includes('components/')) {
+        const componentName = source.split('components/').pop();
+        if (componentName) {
+          for (const ext of ['.tsx', '.ts', '']) {
+            for (const candidate of [
+              path.resolve(__dirname, componentName + ext),
+              path.resolve(__dirname, 'components', componentName + ext),
+              path.resolve(__dirname, 'src/components', componentName + ext),
+            ]) {
+              if (fs.existsSync(candidate)) return candidate;
             }
           }
-          return null;
-        },
-      },
-      react(),
-      tailwindcss(),
-    ],
+        }
+      }
+
+      return null;
+    },
+  };
+}
+
+export default defineConfig(() => {
+  return {
+    plugins: [flatRepoFallbackPlugin(), react(), tailwindcss()],
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
