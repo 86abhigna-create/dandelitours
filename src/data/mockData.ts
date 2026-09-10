@@ -6,9 +6,9 @@ export const INITIAL_STAYS: Stay[] = [
     title: 'Hornbill River Resort & Treehouses',
     subtitle: 'River View Deluxe Cottage with Balcony',
     category: 'Luxury Resorts',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuB0S790XoEZUF80A5zVImTxzLdIGB2P4HMeNKiYqXYZayRx1Xd-YYEtqJ5cbZ2x0LlruIB3qwSPMK4oimZ66_qtgRNd9L3ukTV0WQZyArw1iEvrUOFcljDr8zWabiywYMK0lc3jLWryd14pE0GHq9L94QEcTj4DffpnP6GTYpFTKrmK9dpgLBLVLVliej99WSo767nurqBH0qp5_XBTvY8P27khBd2YYmkTkL9gsurxDLtKGTpysphe',
+    image: 'https://res-console.cloudinary.com/jn4npnn4/thumbnails/transform/v1/image/upload/Y19maWxsLGhfMjAwLHdfMjAw/v1/QndpbmRpX1RyZWV0b3BzX19fVGhlX0J3aW5kaV9JbXBlbmV0cmFibGVfRm9yZXN0X2lzX3Jlbm93bmVkX2Zvcl9pdHNfcG9wdWxhdGlvbl9vZl9tb3VudGFpbl9nb3JpbGxhc19ob3N0aW5nX25lYXJseV9oYWxmX29mX3RoZV93b3JsZF9zX3RvdGFsX2FzX3dlbGxfYXNfb3Zlcl80MDBfcGxhbnRfc3BlY2llc18zNTBfYmlyZF9zcGVjaWVzX2FuZF9udW1lcm91c19t/template_primary',
     gallery: [
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuB0S790XoEZUF80A5zVImTxzLdIGB2P4HMeNKiYqXYZayRx1Xd-YYEtqJ5cbZ2x0LlruIB3qwSPMK4oimZ66_qtgRNd9L3ukTV0WQZyArw1iEvrUOFcljDr8zWabiywYMK0lc3jLWryd14pE0GHq9L94QEcTj4DffpnP6GTYpFTKrmK9dpgLBLVLVliej99WSo767nurqBH0qp5_XBTvY8P27khBd2YYmkTkL9gsurxDLtKGTpysphe',
+      'https://res-console.cloudinary.com/jn4npnn4/thumbnails/transform/v1/image/upload/Y19maWxsLGhfMjAwLHdfMjAw/v1/QndpbmRpX1RyZWV0b3BzX19fVGhlX0J3aW5kaV9JbXBlbmV0cmFibGVfRm9yZXN0X2lzX3Jlbm93bmVkX2Zvcl9pdHNfcG9wdWxhdGlvbl9vZl9tb3VudGFpbl9nb3JpbGxhc19ob3N0aW5nX25lYXJseV9oYWxmX29mX3RoZV93b3JsZF9zX3RvdGFsX2FzX3dlbGxfYXNfb3Zlcl80MDBfcGxhbnRfc3BlY2llc18zNTBfYmlyZF9zcGVjaWVzX2FuZF9udW1lcm91c19t/template_primary',
       'https://images.unsplash.com/photo-1587061949409-02df41d5e562?auto=format&fit=crop&w=1200&q=80',
       'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80'
     ],
@@ -32,9 +32,9 @@ export const INITIAL_STAYS: Stay[] = [
     title: 'Dandeli Jungle Nest Wildlife Camp',
     subtitle: 'Safari Glamping Tent with Attached Bath',
     category: 'Riverside Camps',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAtqkr5ZlwJj33dJgepTHvWyvCGSN72fkveCJOkTDA08cB4eKXS65W-Ptwkn0B0daAmRsKlFnMAdCY1-dSgxg6AqP3MMPwVDjyHFvRN5wd_tkJf8Pf92uZRfo_6qNT_jweIScR6WZEs0yXJ1AVY-rq-GFXkrcxQvl-bbI22gTxzxibD0JgN3nHXoYRrEkbbh3fLHxXc0vM0DoISOjbkI1Gms3zL9pKs_kz_TarMPAMlHAY_TGiA_YOG',
+    image: 'https://res-console.cloudinary.com/jn4npnn4/thumbnails/transform/v1/image/upload/Y19maWxsLGhfMjAwLHdfMjAw/v1/R29sZGVuX01lYWRvd19OYXR1cmVfQ2FtcGluZw==/template_primary',
     gallery: [
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuAtqkr5ZlwJj33dJgepTHvWyvCGSN72fkveCJOkTDA08cB4eKXS65W-Ptwkn0B0daAmRsKlFnMAdCY1-dSgxg6AqP3MMPwVDjyHFvRN5wd_tkJf8Pf92uZRfo_6qNT_jweIScR6WZEs0yXJ1AVY-rq-GFXkrcxQvl-bbI22gTxzxibD0JgN3nHXoYRrEkbbh3fLHxXc0vM0DoISOjbkI1Gms3zL9pKs_kz_TarMPAMlHAY_TGiA_YOG',
+      'https://res-console.cloudinary.com/jn4npnn4/thumbnails/transform/v1/image/upload/Y19maWxsLGhfMjAwLHdfMjAw/v1/R29sZGVuX01lYWRvd19OYXR1cmVfQ2FtcGluZw==/template_primary',
       'https://images.unsplash.com/photo-1510312305653-8ed496efae75?auto=format&fit=crop&w=1200&q=80',
       'https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&w=1200&q=80'
     ],
@@ -57,9 +57,9 @@ export const INITIAL_STAYS: Stay[] = [
     title: 'Kali Wilderness Riverside Retreat',
     subtitle: 'Riverfront Wooden Chalet',
     category: 'Riverside Camps',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDvimPdL1_o4Z7rKhGNjse2CvASRIYevSSum3qbsGUlU51XSjSENV-bXD1_NDBk-moWTCwHlh2OXUNaQbUnrsTBnFdwLNJoXGEuoCZMRLKDKreWnfDJc9jvbxKq9YEY89wEuKxmJkg9OT6QCvxPMkVOoeRSkuVLJL-wxSK2orfis8p_gesXFXa2i-3t82dUGoh4eN_U4xq14wW28SVdVLmWLrd2xKt9HvtR2MysR6Tv5egf4XtteDwc',
+    image: 'https://res-console.cloudinary.com/jn4npnn4/thumbnails/transform/v1/image/upload/Y19maWxsLGhfMjAwLHdfMjAw/v1/UmVnZW5lcmF0aXZlX1JldHJlYXRfVmlzaW9u/template_primary',
     gallery: [
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuDvimPdL1_o4Z7rKhGNjse2CvASRIYevSSum3qbsGUlU51XSjSENV-bXD1_NDBk-moWTCwHlh2OXUNaQbUnrsTBnFdwLNJoXGEuoCZMRLKDKreWnfDJc9jvbxKq9YEY89wEuKxpJkg9OT6QCvxPMkVOoeRSkuVLJL-wxSK2orfis8p_gesXFXa2i-3t82dUGoh4eN_U4xq14wW28SVdVLmWLrd2xKt9HvtR2MysR6Tv5egf4XtteDwc',
+      'https://res-console.cloudinary.com/jn4npnn4/thumbnails/transform/v1/image/upload/Y19maWxsLGhfMjAwLHdfMjAw/v1/UmVnZW5lcmF0aXZlX1JldHJlYXRfVmlzaW9u/template_primary',
       'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80',
       'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80'
     ],
@@ -77,35 +77,13 @@ export const INITIAL_STAYS: Stay[] = [
     roomsLeft: 3
   },
   {
-    id: 'stay-4',
-    title: 'Silver Cascade Canopy Homestay',
-    subtitle: 'Traditional Malnad Villa with Spice Garden',
-    category: 'Cozy Homestays',
-    image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80'
-    ],
-    rating: 4.9,
-    reviewCount: 94,
-    badges: ['Host Pick'],
-    features: ['2 Queen Beds • 4 Guests', 'Veranda', 'Home-cooked Meals'],
-    amenities: ['Authentic Malnad Food', 'Coffee Plantation Tour', 'Bonfire', 'Indoor Games'],
-    price: 2800,
-    priceUnit: '/ night',
-    taxesText: 'Includes Breakfast & Dinner',
-    description: 'Experience genuine hospitality in a traditional ancestral home surrounded by lush Arecanut and spice plantations. Savour authentic Malnad cuisine prepared with local farm-fresh spices.',
-    location: 'Joida Road, Dandeli Outskirts',
-    roomsLeft: 2
-  },
-  {
     id: 'stay-5',
     title: 'Syntheri Rock Jungle Cottages',
     subtitle: 'Granite Valley View Cottage',
     category: 'Jungle Cottages',
-    image: 'https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=1200&q=80',
+    image: 'https://res-console.cloudinary.com/jn4npnn4/thumbnails/transform/v1/image/upload/Y19maWxsLGhfMjAwLHdfMjAw/v1/ZG93bmxvYWRfNQ==/template_primary',
     gallery: [
-      'https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=1200&q=80'
+      'https://res-console.cloudinary.com/jn4npnn4/thumbnails/transform/v1/image/upload/Y19maWxsLGhfMjAwLHdfMjAw/v1/ZG93bmxvYWRfNQ==/template_primary'
     ],
     rating: 4.6,
     reviewCount: 112,
