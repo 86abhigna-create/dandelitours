@@ -14,6 +14,13 @@ async function startServer() {
     res.json({ status: "ok" });
   });
 
+  // Raw App.tsx code endpoint for easy copy-paste
+  app.get("/api/raw-app-code", (req, res) => {
+    const filePath = path.join(process.cwd(), "src", "App.tsx");
+    res.setHeader("Content-Type", "text/plain; charset=utf-8");
+    res.sendFile(filePath);
+  });
+
   // AI Trip Concierge Endpoint using @google/genai
   app.post("/api/ai-recommend", async (req, res) => {
     try {
