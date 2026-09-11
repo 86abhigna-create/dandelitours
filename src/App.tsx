@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { TabType, Stay, Activity, PackageItem, Booking, SearchParams } from './types';
-import { INITIAL_STAYS, INITIAL_ACTIVITIES, INITIAL_PACKAGES, INITIAL_BOOKINGS } from './data/mockData';
+import { INITIAL_STAYS, INITIAL_ACTIVITIES, INITIAL_PACKAGES, INITIAL_BOOKINGS } from './mockData';
 import { Header } from './components/Header';
 import { SearchSummaryBar } from './components/SearchSummaryBar';
 import { CategoryChips } from './components/CategoryChips';
@@ -21,7 +21,6 @@ import { WeatherWidget } from './components/WeatherWidget';
 import { TestimonialsSection } from './components/TestimonialsSection';
 import { HomeQuickHighlights } from './components/HomeQuickHighlights';
 import heroBannerImage from './assets/images/dandeli_hero_banner_1788880366425.jpg';
-
 export default function App() {
   const [activeTab, setActiveTab] = useState<TabType>('explore');
   const [stays] = useState<Stay[]>(INITIAL_STAYS);
